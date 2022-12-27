@@ -12,7 +12,7 @@ _Note:_
 <!-- _Note:_
  Please read the DISCLAIMER before using the tool. -->
 
-Prepackaged binary for Windows is available in the releases section if you are interested. However, I will happy if you test it out on your device and help with the project.
+Prepackaged binary for Windows is available in the releases section if you are interested (checksum are provided as well for the executables). However, I will happy if you test it out on your device and help with the project.
 
 ### Requirements
 
