@@ -12,6 +12,8 @@ def precheck():
         adb_version = subprocess.check_output(['adb', '--version'])
     except subprocess.CalledProcessError as catcherr:
         print(f"{Fore.RED}[ERROR]{Style.RESET_ALL}\n", catcherr.returncode, catcherr.output)
+        print(f"{Fore.GREEN}[INFO] {Style.RESET_ALL} Please install ADB to use VALFE08.")
+        print(f"{Fore.GREEN}[INFO] {Style.RESET_ALL} Know more about VALFE08's prerequisites from https://github.com/code-reaper08/VALFE08#requirements")
         valid = False
     else:
         valid = True
