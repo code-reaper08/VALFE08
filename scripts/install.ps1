@@ -49,7 +49,7 @@ function downloadFiles {
     Write-Host "[SUCCESS] Added ADB to path for this session...`n"
     try {
         Write-Host "[.] Trying to download VALFE08 from the official repository...`n"
-        Invoke-WebRequest -Uri "https://github.com/code-reaper08/VALFE08/releases/download/v0.1.0-alpha/valfe08-v0.1.0-alpha-Win64.exe" -OutFile "valfe08.exe"
+        Invoke-WebRequest -Uri "https://github.com/code-reaper08/VALFE08/releases/download/v0.2.0-alpha/valfe08-v0.2.0-alpha-Win64.exe" -OutFile "valfe08.exe"
     Write-Host "[SUCCESS] Downloaded VALFE08 successfully`n"
     }
     catch {
