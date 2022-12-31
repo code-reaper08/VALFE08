@@ -44,7 +44,7 @@ python genisis.py
 
 ## Downloding and Installing VALFE08
 
-VALFE08's source code can be run by following [these instructions](https://github.com/code-reaper08/VALFE08#how-to-use), however, for a very non-techy user, it might still pose some groundwork in installing the necessary tools and environment to run VALFE08. To ease this, such users can use the official VALFE08 installer script provided in this repository.
+VALFE08's source code can be run by following [these instructions](https://github.com/code-reaper08/VALFE08#how-to-use), however, for a very non-techy user, it might still pose some groundwork in installing the necessary tools and environment to run VALFE08. To ease this, such users can use the official VALFE08 installer script provided in this repository. An uninstall script is also provided to remove VALFE08 from the system.
 
 ### What the installer script does
 
@@ -55,7 +55,13 @@ The installer scripts download ADB and VALFE08 and create a session-level enviro
 To use the script follow the below steps,
 
 1. Download the installer script from [here](https://raw.githubusercontent.com/code-reaper08/VALFE08/main/scripts/install.ps1)
-2. Run the downloaded script in PowerShell by `.\installer.ps1`
+2. Run the downloaded script in PowerShell by `.\install.ps1`
+3. Or, you can click on the installed script and then click on the open with PowerShell option
+
+**Uninstall VALFE08**
+
+1. Download the uninstall script from [here](https://raw.githubusercontent.com/code-reaper08/VALFE08/main/scripts/uninstall.ps1)
+2. Run the downloaded script in PowerShell by `.\uninstall.ps1`
 3. Or, you can click on the installed script and then click on the open with PowerShell option
 
 _Note:_
