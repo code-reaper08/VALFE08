@@ -12,7 +12,7 @@ function Find-Folders {
         $loop = $false		
         } else
         {
-            $res = [System.Windows.Forms.MessageBox]::Show("DO you want to quit installation!", [System.Windows.Forms.MessageBoxButtons]::RetryCancel)
+            $res = [System.Windows.Forms.MessageBox]::Show("Do you want to quit installation!", [System.Windows.Forms.MessageBoxButtons]::RetryCancel)
             if($res -eq "Cancel")
             {
                 return
